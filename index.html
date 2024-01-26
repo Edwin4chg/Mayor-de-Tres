@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayor de Tres Números</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Mayor</h2>
+    <form id="numeroForm">
+        <label for="numero1">Número 1:</label>
+        <input class="inp" type="number" id="numero1" required><br><br>
+        
+        <label for="numero2">Número 2:</label>
+        <input class="inp" type="number" id="numero2" required><br><br>
+        
+        <label for="numero3">Número 3:</label>
+        <input class="inp" type="number" id="numero3" required><br><br>
+        
+        <input id="boton" type="button" value="Calcular Mayor" onclick="calcularMayor()">
+    </form>
+    <div id="resultado" style="display: none;">
+        <h3>Resultado:</h3>
+        <p id="mensaje"></p>
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>
